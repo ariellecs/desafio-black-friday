@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.section-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bacground-section-one{
+    background-image: url(../assets/back1.png);
+    background-attachment: local;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;    
+}
+
+.myPclass{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 180%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 3px 3px 2px crimson;
+
+}
+
+.bacground-section-two{
+    background-image: url(../assets/back2.png);
+    background-attachment: local;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+footer{
+    height: 100px;
+    padding: 25px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+}
+
+.card-container{
+    background:linear-gradient(135deg, #d48285 0%,#be4370 100%);
+    border-radius: 25px;
+    padding: 15px;
+    max-width: 500px;
+}
+
+input{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: seashell;
+    color: black;
+    border-color: chocolate;
+    border-width: thin;
+}
+
+.myP2Class{
+    text-align: justify;
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 120%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.myH1Class{
+    color: maroon;
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 500%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.myDivClass{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
